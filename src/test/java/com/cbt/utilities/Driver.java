@@ -1,4 +1,6 @@
-package com.cbt.utilities;
+package test.java.com.cbt.utilities;
+
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

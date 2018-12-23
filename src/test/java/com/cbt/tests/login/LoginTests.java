@@ -1,4 +1,4 @@
-package com.cbt.tests.login;
+package test.java.com.cbt.tests.login;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
@@ -8,16 +8,17 @@ import org.openqa.selenium.By;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-import com.cbt.pages.AllOrdersPage;
-import com.cbt.pages.LoginPage;
-import com.cbt.tests.TestBase;
-import com.cbt.utilities.ConfigurationReader;
+import test.java.com.cbt.pages.AllOrdersPage;
+import test.java.com.cbt.pages.LoginPage;
+import test.java.com.cbt.tests.TestBase;
+import test.java.com.cbt.utilities.ConfigurationReader;
 
 public class LoginTests extends TestBase {
 
 	@Test()
 	public void positiveloginTest() {
 		// name of the test
+
 		extentLogger = report.createTest("Positive login test");
 		// info ()  --> to print a message
 		extentLogger.info("entering user credentials");

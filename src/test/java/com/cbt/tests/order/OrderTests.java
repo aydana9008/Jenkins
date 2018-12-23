@@ -1,4 +1,7 @@
-package com.cbt.tests.order;
+package test.java.com.cbt.tests.order;
+
+
+
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
@@ -10,11 +13,11 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.cbt.pages.AllOrdersPage;
-import com.cbt.pages.LoginPage;
-import com.cbt.pages.ProductsPage;
-import com.cbt.tests.TestBase;
-import com.cbt.utilities.ConfigurationReader;
+import test.java.com.cbt.pages.AllOrdersPage;
+import test.java.com.cbt.pages.LoginPage;
+import test.java.com.cbt.pages.ProductsPage;
+import test.java.com.cbt.tests.TestBase;
+import test.java.com.cbt.utilities.ConfigurationReader;
 
 public class OrderTests extends TestBase {
 
